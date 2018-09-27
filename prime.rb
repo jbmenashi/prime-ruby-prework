@@ -1,6 +1,6 @@
 def prime?(number)
   if number <= 0 
-    false
+    return false
   else
     range_array = (2...number).to_a 
     range_array.each do |element|
