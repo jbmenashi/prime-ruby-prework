@@ -1,5 +1,5 @@
 def prime?(number)
-  if number < 0 
+  if number <= 0 
     false
   else
     range_array = (2...number).to_a 
